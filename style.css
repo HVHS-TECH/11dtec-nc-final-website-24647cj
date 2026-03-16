@@ -2,25 +2,45 @@ h1{
     color: red;
 }
 
-.navbar ul{
-    list-style-type: none;
-    background-color: gray;
-    padding: 0px;
-    margin: 0px;
+body{
+    margin: 0;
 }
 
-.navbar a{
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(27,30,33);
+    color: white;
+    padding: 15px 30px;
+ }
+
+ .nlinks{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+.nlinks a{
     color: white;
     text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
 }
 
 .navbar a:hover{
-    background-color: black;
+    color: orange;
+    text-decoration:  underline;
 }
 
-.navbar li{
-    
+.Fim {
+    margin: 50px;
+    justify-content: left;
+    border-radius: 30px;
+    box-shadow:8px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.pone{
+    align-items: right;
 }
