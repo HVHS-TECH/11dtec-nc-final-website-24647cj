@@ -78,6 +78,13 @@ body{
     margin: 20px;
  }
 
+ .card9{
+    width: 3256px;
+  
+    overflow: hidden;
+    margin: 20px;
+ }
+
  .card img{
     width: 100%;
     height: auto;
